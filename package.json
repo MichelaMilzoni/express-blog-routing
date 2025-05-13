@@ -1,0 +1,20 @@
+{
+  "name": "express-blog-routing",
+  "version": "1.0.0",
+  "description": "impariamo il routing",
+  "keywords": [
+    "blog",
+    "routing",
+    "entry-point"
+  ],
+  "license": "ISC",
+  "author": "Michela Milzoni",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
