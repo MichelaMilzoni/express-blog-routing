@@ -5,8 +5,10 @@ const express = require("express");
 const app = express();
 
 // importo dati da config.js
-const config = require("./config.js");
+const { config, posts } = require("./config.js");
 
+
+// avvio del server mettendolo in ascolto sulla porta definita
 app.listen(config.appPortappPort, () => {
     console.log(`Server avviato su ${config.appUrl} + ${config.appPort}`);
 })
