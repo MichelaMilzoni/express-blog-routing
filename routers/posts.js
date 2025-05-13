@@ -18,7 +18,11 @@ router.get("/", (req, res) => {
 
 //! show
 router.get("/:id", (req, res) => {
+  console.log("ID ricevuto:", req.params.id);
+  console.log("Array dei post:", postsData);
+
   const post = postsData.find((p) => p.id === parseInt(req.params.id));
+
   if (post) {
     res.json(post);
   } else {
